@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>badges</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Badges</h1>
+        <span class="badge text-bg-primary">New</span><br><br>
+
+        <h1>Badge inside Badge</h1>
+
+        <span class="badge text-bg-primary"> Notification <span class="badge text-bg-secondary">5</span></span><br><br>
+
+        <h1>Positioned</h1>
+
+        <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">99+
+                <span class="visually-hidden">unread messages</span>
+            </span>
+        </button><br><br>
+        <button type="button" class="btn btn-primary position-relative">
+            Profile
+            <span
+                class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                <span class="visually-hidden">New alerts</span>
+            </span>
+        </button><br><br>
+
+        <h1>Pill Badges</h1>
+
+        <span class="badge rounded-pill text-bg-primary">Primary</span>
+        <span class="badge rounded-pill text-bg-secondary">Secondary</span>
+        <span class="badge rounded-pill text-bg-success">Success</span>
+        <span class="badge rounded-pill text-bg-danger">Danger</span>
+        <span class="badge rounded-pill text-bg-warning">Warning</span>
+        <span class="badge rounded-pill text-bg-info">Info</span>
+        <span class="badge rounded-pill text-bg-light">Light</span>
+        <span class="badge rounded-pill text-bg-dark">Dark</span>
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
